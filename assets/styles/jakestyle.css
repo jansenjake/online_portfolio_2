@@ -106,11 +106,13 @@ body {
   border-radius: 9px;
 }
 footer {
-  float: right;
+  float: inline-start;
 }
 
 body {
   background-image: url(../images/Beautiful_Tree_Gif_Animation.gif);
+  background-repeat: no-repeat;
+  height: 100vh;
   background-position: center;
   background-size: cover;
 }
@@ -141,3 +143,21 @@ h3 {
   text-decoration: underline;
 }
 
+button {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+* {
+  overflow-x: hidden;
+}
+
+.jakeimg {
+  height: 100%;
+  width: 100%;
+}
+
+.carousel {
+  border-radius: 200px;
+}
